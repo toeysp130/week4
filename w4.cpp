@@ -75,7 +75,7 @@ int main()
 	BMI = W/TM*TM;
 	BMIX = BMI/(1.55*1.55);
 	cout << "BMI of you is " << BMI << endl;
-	cout << "BMI of you is " << BMIX << endl;
+	cout << "BMI of you is " << setprecision(4) << BMIX << endl;
 	cout << "Your shape is " ;
 	if(BMIX <= 18.50)
 		cout << "Low Weight" << endl;
